@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact App</title>
+    <!-- main CSS File -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- main JS File -->
+    <script src="main.js"></script>
+    
+  </head>
+  <body onload="">
+    <div>
+      <div class="container" id="container">
+        <div id="nav" class="CharacterContainer">
+
+        <div class="navbar">
+          <h2 class="all_contacts">All Contacts</h2>
+          <!-- <button onclick="searchBar()"> -->
+          <i id="search_toggle" onclick="searchBar()" class="fa fa-chevron-down"></i>
+          <i
+            id="search_vanish"
+            onclick="searchBarVanish()"
+            class="fa fa-chevron-up"
+          ></i>
+          <!-- </button> -->
+          <input
+            type="search"
+            class="search_bar"
+            name=""
+            placeholder="                                                 Search"
+            id="search_bar"
+          />
+          <!-- <hr /> -->
+        </div>
+         <br><br><br><br>
+        
+        <div class="contacts" id="contacts">
+        <br>
+        <div class="side_data">
+            <a href="#A1">A</a><br>
+            <a href="#A1">B</a><br>
+            <a href="#B1">C</a><br>
+            <a href="#C1">D</a><br>
+            <a href="#D1">L</a><br>
+            <a href="#L1">#</a><br>
+        </div>
+            <div>
+               <div id="A1" class="head_names"><h3 class="single_contact" id="name_list">A</h3></div>
+                <p class="single_contact">Leo <strong>Anu</strong></p>
+                <p class="single_contact">Daniel <strong>Ashwin</strong></p>
+                <p class="single_contact"> Rock <strong>Azhuu</strong></p>
+              </div> 
+              <div>
+                <h3 id="B1" class="single_contact" id="name_list">B</h3>
+                <p class="single_contact">Leo <strong>Balu</strong></p>
+                <p class="single_contact">Daniel <strong>Basavaraju</strong></p>
+                <p class="single_contact">Rock <strong>Bhuvan</strong></p>
+                <p class="single_contact">Leo <strong>Bhuvan</strong> School</p>
+              </div> 
+              <div>
+                <h3 id="C1" class="single_contact" id="name_list">C</h3>
+                <p class="single_contact">Leo <strong>Chandan</strong></p>
+                <p class="single_contact">Rock <strong>Chithra</strong></p>
+                <!-- <p class="single_contact">Azhuu</p> -->
+              </div> 
+              <div>
+                <h3 id="D1" class="single_contact" id="name_list">D</h3>
+                <p class="single_contact">Leo <strong>Dayanand</strong></p>
+                <p class="single_contact">Rock <strong>Daiwik</strong></p>
+                <p class="single_contact">Saniel <strong>Dhruthi</strong></p>
+                <p class="single_contact">Sash <strong>strong</strong></p>
+                <p class="single_contact">Sost <strong>Divakar</strong></p>
+              </div> 
+              <div>
+                <h3 id="L1" class="single_contact" id="name_list">L</h3>
+                <p class="single_contact">Rock <strong>Lavanya</strong></p>
+                <p class="single_contact">Rest <strong>Lavii</strong></p>
+                <p class="single_contact">Moti <strong>Lekhu</strong></p>
+              </div> 
+              <div>
+                <h3 id="Z1" class="single_contact" id="name_list">#</h3>
+                <p class="single_contact">7338040593</p>
+                <p class="single_contact">9902012265</p>
+                <p class="single_contact">9739305074</p>
+                <p class="single_contact">9742707698</p>
+                <p class="single_contact">9977654328</p>
+                <p class="single_contact">6362798965</p>
+                <p class="single_contact">8217221636</p>
+                <p class="single_contact">9980497939</p>
+              </div> 
+              
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
